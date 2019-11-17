@@ -1,0 +1,16 @@
+{
+	"name": "delight-im/alphabets",
+	"description": "Sets of digits or characters that may be used for base conversions, encoding and decoding tasks, and input validation",
+	"require": {
+		"php": ">=5.6.0"
+	},
+	"type": "library",
+	"keywords": [ "alphabets", "alphabet", "encoding", "encode", "decoding", "decode", "decimal", "hex", "hexadecimal", "octal", "binary", "alpha", "alphanumeric", "ascii", "base32", "base58", "base64", "base64url", "base85" ],
+	"homepage": "https://github.com/delight-im/PHP-Alphabets",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Delight\\Alphabets\\": "src/"
+		}
+	}
+}
